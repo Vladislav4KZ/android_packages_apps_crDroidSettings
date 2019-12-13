@@ -100,6 +100,8 @@ public class LockScreen extends SettingsPreferenceFragment
                 Settings.System.FP_ERROR_VIBRATE, 1, UserHandle.USER_CURRENT);
         Settings.System.putIntForUser(resolver,
                 Settings.System.FP_SUCCESS_VIBRATE, 1, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+                Settings.System.LOCK_SHOW_STATUS_BAR, 1, UserHandle.USER_CURRENT);
         LockScreenVisualizer.reset(mContext);
     }
 

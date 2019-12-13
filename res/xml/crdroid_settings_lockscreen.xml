@@ -134,23 +134,24 @@
             android:icon="@drawable/ic_alarm"
             android:title="@string/hide_lockscreen_alarm_title"
             android:summary="@string/hide_lockscreen_alarm_summary"
+            android:defaultValue="true" />-->
+
+        <!-- Show Statusbar on Lockscreen -->
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_show_status_bar"
+            android:icon="@drawable/ic_shapes"
+            android:title="@string/lockscreen_show_status_bar_title"
+            android:summary="@string/lockscreen_show_status_bar_summary"
             android:defaultValue="true" />
 
-        <com.crdroid.settings.preferences.SecureSettingSwitchPreference
-            android:key="lockscreen_hide_status_bar"
-            android:icon="@drawable/ic_shapes"
-            android:title="@string/lockscreen_hide_status_bar_title"
-            android:summary="@string/lockscreen_hide_status_bar_summary"
-            android:defaultValue="true" /> -->
-
-        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <!--<com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_battery_info"
             android:icon="@drawable/ic_battery_charging"
             android:title="@string/lockscreen_battery_info_title"
             android:summary="@string/lockscreen_battery_info_summary"
             android:defaultValue="true" />
 
-        <!--<com.crdroid.settings.preferences.SystemSettingSwitchPreference
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="lockscreen_charging_animation"
             android:icon="@drawable/ic_flash_outline"
             android:title="@string/lockscreen_charging_animation_title"
